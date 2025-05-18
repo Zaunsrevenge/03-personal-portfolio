@@ -129,9 +129,53 @@ h2 {
 }
 
 .education-column ul{
-  list-style: ;
     gap: 20px;
     margin: 0;
     padding-left: 20px;
 }
 
+.work-experience ul li p {
+  margin: 20px 0;
+}
+
+.work-experience ul li a {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.work-experience ul li:last-child {
+  margin-bottom: 0;
+}
+
+.teacher-reviews h2 {
+  text-align: left;
+}
+
+.articles {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.articles article {
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.articles blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.articles p {
+  color: grey;
+}
+
+.page-footer {
+  text-align: center;
+  padding: 30px 0;
+  margin: 20px 0;
+}

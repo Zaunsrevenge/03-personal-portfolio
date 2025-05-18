@@ -184,6 +184,10 @@ h2 {
   width: auto;  /* Keeps the original aspect ratio */
 }
 
+.mobile-only {
+  display: none;
+}
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   /* Mobile styles go here */
@@ -237,6 +241,17 @@ h2 {
     padding: 0;
     margin: 0;
   }
+  .projects-column ul{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .mobile-only{
+    display: block;
+  }
+  .project-box {
+  background-color: rgb(211, 211, 211);
 }
 
-nav
+}
+

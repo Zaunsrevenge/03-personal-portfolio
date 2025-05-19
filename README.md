@@ -3,7 +3,7 @@
 This project builds upon the previous [HTML-only site](https://zaunsrevenge.github.io/HTML-only-site/) by adding **CSS styling** to enhance visual design, layout, and responsiveness. It is part of the [Roadmap.sh](https://roadmap.sh/) frontend development path.
 
 ## 📍 Live Project Link
-[https://zaunsrevenge.github.io/Styled-HTML-site/](https://zaunsrevenge.github.io/Styled-HTML-site/)  
+[https://zaunsrevenge.github.io/03-personal-portfolio/](https://zaunsrevenge.github.io/03-personal-portfolio/)  
 *(Update this link after deploying the new repo to GitHub Pages)*
 
 ---

@@ -70,17 +70,29 @@ h2 {
 .education-column {
   flex: 1;
 }
-
-.projects-column {
-   padding: 0 20px 0 0;
-    border-right: 2px solid #333;
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.projects-column ul {
-  padding-left: 0; /* remove default padding */
-  margin-left: 0;  /* remove default margin */
+.project-link {
+  text-decoration: none;
 }
 
+.project-item {
+  background-color: rgb(211, 211, 211);
+  padding: 16px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  font-weight: bold;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.project-item:hover {
+  background-color: rgb(190, 190, 190);
+}
 
 
 .education-column {
@@ -249,9 +261,16 @@ h2 {
   .mobile-only{
     display: block;
   }
-  .project-box {
+
+.project-wrapper {
   background-color: rgb(211, 211, 211);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 20px 0; /* spacing between blocks */
+  position: relative;
 }
 
+
+ 
 }
 
